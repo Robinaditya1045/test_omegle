@@ -8,7 +8,7 @@ declare global {
     }
 }
 
-const URL = "http://localhost:3000";
+const URL = "https://test-omegle.onrender.com";
 
 export const Room = ({
     name,
