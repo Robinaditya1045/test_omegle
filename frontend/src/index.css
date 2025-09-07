@@ -1,0 +1,58 @@
+body {
+  background: #18181b;
+  color: #e5e7eb;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+input[type="text"] {
+  background: #27272a;
+  color: #e5e7eb;
+  border: 1px solid #3f3f46;
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  font-size: 1.1em;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input[type="text"]:focus {
+  border: 1.5px solid #6366f1;
+}
+
+button {
+  background: linear-gradient(90deg, #6366f1 0%, #3b82f6 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6em 1.5em;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 1em;
+  box-shadow: 0 2px 8px #0002;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #818cf8 0%, #60a5fa 100%);
+}
+
+video {
+  background: #27272a;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #0004;
+  margin: 1em 0.5em;
+  border: 2px solid #3f3f46;
+  object-fit: cover;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #18181b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 8px;
+}
