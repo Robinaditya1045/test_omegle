@@ -25,6 +25,9 @@ io.on('connection', (socket: Socket) => {
   })
 });
 
-server.listen(3000, () => {
-    console.log('listening on *:3000');
+const PORT = process.env.PORT ? parseInt(process.env.PORT) : 3000;
+const HOST = "0.0.0.0";
+
+server.listen(PORT, HOST, () => {
+    console.log(`listening on ${HOST}:${PORT}`);
 });
